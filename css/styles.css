@@ -91,16 +91,17 @@ p{
 }
 .work{
     font-size: 12px;
-    position: relative;
+    position: absolute;
     top: 0px;
     left: 10px;
     margin: 15px auto 15px 8px;
 }
 
-.work-card h2{
-    position: relative;
+.hours{
+    position: absolute;
     font-size: 30px;
     left: 15px;
+    top: 50px;
     margin: 2px auto;
 }
 /* hours text */
@@ -115,12 +116,14 @@ p{
 /* dots */
 .dots{
     font-size: 15px;
-    left: 120px;
-    position: relative;
+    top: 0px;
+    left: 150px;
+    position: absolute;
     color: rgb(196, 196 , 202);
 }
 .dots:hover{
     color: #fff;
+    cursor: pointer;
 }
 
 .work-img-container{
@@ -152,6 +155,11 @@ p{
     z-index: 1;
 }
 
+.play-card:hover{
+    background: hsl(236, 70%, 53%);
+    cursor: pointer;
+}
+
 .play-img-container{
     background: hsl(195, 74%, 62%);
     border-radius: 10px;
@@ -179,6 +187,10 @@ p{
     position: absolute;
     top: 140px;
     z-index: 1;
+}
+.study-card:hover{
+    background: hsl(236, 70%, 53%);
+    cursor: pointer;
 }
 
 .study-img-container{
@@ -209,7 +221,10 @@ p{
     top: 330px;
     z-index: 1;
 }
-
+.ewxercise-card:hover{
+    background: hsl(236, 70%, 53%);
+    cursor: pointer;
+}
 .exercise-img-container{
     background: hsl(145, 58%, 55%);
     border-radius: 10px;
@@ -238,7 +253,10 @@ p{
     top: 330px;
     z-index: 1;
 }
-
+.social-card:hover{
+    background: hsl(236, 70%, 53%);
+    cursor: pointer;
+}
 .social-img-container{
     background: hsl(264, 64%, 52%);
     border-radius: 10px;
@@ -267,7 +285,10 @@ p{
     top: 330px;
     z-index: 1;
 }
-
+.self-card:hover{
+    background: hsl(236, 70%, 53%);
+    cursor: pointer;
+}
 .self-img-container{
     background: hsl(43, 84%, 65%);
     border-radius: 10px;
