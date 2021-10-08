@@ -76,6 +76,7 @@ p{
 .work-card{
     background: rgb(16, 36, 168);
     border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
     height: 120px;
     left:300px;
     width: 200px;
@@ -84,6 +85,44 @@ p{
     top: 140px;
     z-index: 1;
 }
+
+.work-card:hover{
+    background: hsl(236, 70%, 53%);
+}
+.work{
+    font-size: 12px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    margin: 15px auto 15px 8px;
+}
+
+.work-card h2{
+    position: relative;
+    font-size: 30px;
+    left: 15px;
+    margin: 2px auto;
+}
+/* hours text */
+.hours-text{
+    bottom: 0px;
+    color: rgb(196, 196 , 202);
+    font-size: 12px;
+    font-weight: 100;
+    left: 15px;
+    position: absolute;
+}
+/* dots */
+.dots{
+    font-size: 15px;
+    left: 120px;
+    position: relative;
+    color: rgb(196, 196 , 202);
+}
+.dots:hover{
+    color: #fff;
+}
+
 .work-img-container{
     background: hsl(15, 100%, 70%);
     border-radius: 10px;
