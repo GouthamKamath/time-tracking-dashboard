@@ -14,16 +14,22 @@ p{
     font-weight: 100;
 }
 
+/* contianer */
+.container{
+    position: relative;
+    margin: 50px 120px;
+}
+
 /* Main card */
 .main-card{
     background: blue;
     border-radius: 10px;
     height: 200px;
-    left: 75px;
+    left: 125px;
     padding: 15px;
     position: relative;
     text-align: justify;
-    top:120px;
+    top:130px;
     width: 120px;
     z-index: 10;
 }
@@ -39,7 +45,7 @@ p{
 
 /* Frequency list card */
 .frequency{
-    background: rgb(11, 25, 109);
+    background: hsl(235, 46%, 20%);
     border-radius: 0px 0px 10px 10px;
     height: 120px;
     left:0px;
@@ -73,10 +79,10 @@ p{
 
 /* work card */
 .work-card{
-    background: rgb(16, 36, 168);
+    background: hsl(235, 46%, 20%);
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
-    height: 120px;
+    height: 140px;
     left:300px;
     width: 200px;
     margin: 20px auto;
@@ -86,7 +92,7 @@ p{
 }
 
 .work-card:hover{
-    background: hsl(236, 70%, 53%);
+    background: hsl(235, 45%, 61%);
 }
 .work{
     font-size: 12px;
@@ -98,7 +104,7 @@ p{
 
 .hours{
     position: absolute;
-    font-size: 30px;
+    font-size: 35px;
     left: 15px;
     top: 50px;
     margin: 2px auto;
@@ -143,9 +149,9 @@ p{
 
 /* play card */
 .play-card{
-    background: rgb(16, 36, 168);
+    background: hsl(235, 46%, 20%);
     border-radius: 10px 10px 10px 10px;
-    height: 120px;
+    height: 140px;
     left:520px;
     width: 200px;
     margin: 20px auto;
@@ -155,7 +161,7 @@ p{
 }
 
 .play-card:hover{
-    background: hsl(236, 70%, 53%);
+    background: hsl(235, 45%, 61%);
     cursor: pointer;
 }
 
@@ -177,9 +183,9 @@ p{
 
 /* study card */
 .study-card{
-    background: rgb(16, 36, 168);
+    background: hsl(235, 46%, 20%);
     border-radius: 10px 10px 10px 10px;
-    height: 120px;
+    height: 140px;
     left:740px;
     width: 200px;
     margin: 20px auto;
@@ -188,7 +194,7 @@ p{
     z-index: 1;
 }
 .study-card:hover{
-    background: hsl(236, 70%, 53%);
+    background: hsl(235, 45%, 61%);
     cursor: pointer;
 }
 
@@ -210,18 +216,18 @@ p{
 
 /* exercise card */
 .exercise-card{
-    background: rgb(16, 36, 168);
+    background: hsl(235, 46%, 20%);
     border-radius: 10px 10px 10px 10px;
-    height: 120px;
+    height: 140px;
     left:300px;
     width: 200px;
     margin: 25px auto;
     position: absolute;
-    top: 330px;
+    top: 310px;
     z-index: 1;
 }
-.ewxercise-card:hover{
-    background: hsl(236, 70%, 53%);
+.exercise-card:hover{
+    background: hsl(235, 45%, 61%);
     cursor: pointer;
 }
 .exercise-img-container{
@@ -230,7 +236,7 @@ p{
     left: 300px;
     overflow: hidden;
     position: absolute;
-    top: 330px;
+    top: 310px;
     width: 200px;
 }
 .exercise-img-container img{
@@ -242,18 +248,18 @@ p{
 
 /* social card */
 .social-card{
-    background: rgb(16, 36, 168);
+    background: hsl(235, 46%, 20%);
     border-radius: 10px 10px 10px 10px;
-    height: 120px;
+    height: 140px;
     left: 520px;
     width: 200px;
     margin: 25px auto;
     position: absolute;
-    top: 330px;
+    top: 310px;
     z-index: 1;
 }
 .social-card:hover{
-    background: hsl(236, 70%, 53%);
+    background: hsl(235, 45%, 61%);
     cursor: pointer;
 }
 .social-img-container{
@@ -262,7 +268,7 @@ p{
     left: 520px;
     overflow: hidden;
     position: absolute;
-    top: 330px;
+    top: 310px;
     width: 200px;
 }
 .social-img-container img{
@@ -274,18 +280,18 @@ p{
 
 /* self care card */
 .self-card{
-    background: rgb(16, 36, 168);
+    background: hsl(235, 46%, 20%);
     border-radius: 10px 10px 10px 10px;
-    height: 120px;
+    height: 140px;
     left:740px;
     width: 200px;
     margin: 25px auto;
     position: absolute;
-    top: 330px;
+    top: 310px;
     z-index: 1;
 }
 .self-card:hover{
-    background: hsl(236, 70%, 53%);
+    background: hsl(235, 45%, 61%);
     cursor: pointer;
 }
 .self-img-container{
@@ -294,12 +300,11 @@ p{
     left: 740px;
     overflow: hidden;
     position: absolute;
-    top: 330px;
+    top: 310px;
     width: 200px;
     height: 80px;
 }
 .self-img-container img{
-    bottom: 10px;
     height: 60px;
     left: 135px;
     position: relative;
@@ -311,14 +316,19 @@ p{
     .body{
         height: 100%;
     }
+    /* contianer */
+    .container{
+        position: relative;
+        margin: 50px 80px;
+    }
     .main-card{
         height: 50px;
-        width: 180px;
-        left: 0px;
+        width: 190px;
+        left: 10px;
         margin: 0px 80px;
         position: relative;
         top: 0px;
-        padding: 15px;
+        padding: 10px;
     }
     .main-card p{
         font-size: 8px;
